@@ -123,7 +123,7 @@ Developed by: Gokul.M
 RegisterNumber:  212222230037
 ```
 
-```
+```python
 SR FLIPFLOPS CODE:
 module ex5(S,R,clk,Q,Qbar);
 input S,R,clk;
@@ -138,7 +138,7 @@ Qbar=R|((~S)&(Qbar));
 end
 endmodule
 ```
-```
+```python
 JK FLIPFLOPS CODE:
 module ex5(J,K,clk,Q,Qbar);
 input J,K,clk;
@@ -153,7 +153,7 @@ Qbar=((~J)&(Qbar))|K&(~Qbar);
 end
 endmodule
 ```
-```
+```python
 D FLIPFLOPS CODE:
 module ex5(D,clk,Q,Qbar);
 input D,clk;
@@ -168,7 +168,7 @@ Qbar=~D;
 end
 endmodule
 ```
-```
+```python
 T FLIPFLOPS CODE:
 module ex5(T,clk,Q,Qbar);
 input T,clk;
